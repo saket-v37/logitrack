@@ -12,7 +12,7 @@ public class HomeController {
 
     @GetMapping("/hello")
     public String hello() {
-        logger.info("FATAL ERROR");
+        logger.error("FATAL ERROR");
         return "Hello Daily Code Buffer!!";
     }
 }

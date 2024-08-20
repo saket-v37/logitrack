@@ -60,7 +60,9 @@
         <appender-ref ref="CONSOLE"/>
     </logger>
     <root level="error">
+        <appender-ref ref="FILE-ROLLING"/>
         <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="EMAIL"/>
     </root>
 
 </configuration>
